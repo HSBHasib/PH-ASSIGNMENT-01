@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #FFF;
+}
+
 .font-inter {
     font-family: Inter;
     font-optical-sizing: auto;
@@ -34,10 +38,6 @@
 
 
 /* Header Section | 'Navber-Section' */
-nav {
-    
-}
-
 .nav-container {
     display: flex;
     justify-content: space-between;
@@ -164,7 +164,7 @@ nav {
 .sec-1-container .text-center p {
     font-size: 10.5px;
     color: #627382;
-    padding: 10px 0 28px;
+    padding: 10px 0 32px;
 }
 
 .sec-1-container .sec-1-content {
@@ -221,7 +221,6 @@ p {
 
 /* Section-2 */
 #sec-2 {
-    background-color: #FFF;
     margin-top: 80px;
 }
 
@@ -276,16 +275,31 @@ p {
 
 
 
+/* Section-3 */
+#sec-3 {
+    padding: 90px 0;
+}
 
+.sec-3-container {
+    background-color: #F7F6F2;
+    border-radius: 12px;
+    padding: 70px 40px;
+    text-align: center;
+}
 
+.sec-3-container h2 {
+    font-size: 38px;
+}
 
+.sec-3-container p {
+    font-size: 13px;
+    padding: 15px 0 18px;
+    color: #627382;
+}
 
-
-
-
-
-
-
+.sec-3-container .btn {
+    font-weight: 500;
+}
 
 
 
