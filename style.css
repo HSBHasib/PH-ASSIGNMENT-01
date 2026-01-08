@@ -159,10 +159,6 @@ body {
     border: 1px solid white;
 }
 
-.btn-trans:hover {
-    
-}
-
 
 
 /* Main Section | 'Section-1' */
@@ -353,8 +349,8 @@ footer {
 .footer-content .footer-links .x,
 .linkedin,
 .fb {
-    width: 20px;
-    height: 20px;
+    width: 22px;
+    height: 22px;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -366,9 +362,7 @@ footer {
 .footer-content .footer-links .x i,
 .linkedin i,
 .fb i {
-    width: 14px;
-    height: 14px;
-    
+    width: 100%;
 }
 
 
