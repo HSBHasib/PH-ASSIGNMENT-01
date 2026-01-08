@@ -19,15 +19,16 @@
 .btn {
     padding: 12px 16px;
     border: none;
-    border-radius: 5px;
+    border-radius: 4px;
     background-color: #469165;
     color: white;
     font-size: 15px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 
-/* Header Section | 'Navber' */
+/* Header Section | 'Navber-Section' */
 nav {
     
 }
@@ -54,4 +55,99 @@ nav {
     font-size: 15px;
     font-weight: 500;
 }
+
+
+/* Hero-Section */
+#hero {
+    background: url('./assets/hero-bg.png');
+    background-size: cover;
+    color: #FFF;
+}
+
+.hero-container {
+    text-align: center;
+    align-items: center;
+    padding: 80px 0 120px;
+}
+
+/* Hero-Content-Dot */
+.hero-container .hero-content-dot {
+    display: flex;
+    justify-content: center;
+    padding: 8px 12px;
+    margin: 0 auto 12px;
+    background-color: #fffffff3;
+    color: black;
+    max-width: 250px;
+    gap: 10px;
+    border-radius: 1000px;
+}
+
+.hero-container .hero-content-dot .hc-text {
+    color: #469165;
+    font-weight: 500;
+}
+
+.hero-container .hero-content-dot .grn-dot {
+    width: 22px;
+    height: 22px;
+    background-color: #DAE9E0;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.hero-container .hero-content-dot .grn-sec-dot{
+    width:16px;
+    height:16px;
+    background-color: #b3dcc4;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.hero-container .hero-content-dot .grn-third-dot{
+    width:8px;
+    height:8px;
+    background-color: #469165;
+    border-radius:50%;
+}
+
+/* Hero-Text-Content */
+.hero-container .hero-text-content h1 {
+    text-transform: capitalize;
+    font-size: 45px;
+    opacity: 90%;
+}
+
+.hero-container .hero-text-content #grn-h1 {
+    color: #30AB64 ;
+}
+
+.hero-container .hero-text-content p {
+    margin: 15px 0 22px;
+    line-height: 28px;
+}
+
+/* Hero-Button */
+.hero-container .hero-btn .btn  {
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.hero-container .hero-btn .btn-trans  {
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+
+
+
+
+
+
+
 
