@@ -152,8 +152,8 @@ nav {
 
 /* Main Section | 'Section-1' */
 #sec-1 {
-    padding: 30px 0 15px;
-    background-color: #fbfbfb98;
+    padding: 30px 0 0;
+    background-color: #fbfbfb61;
 }
 
 .sec-1-container .text-center h2 {
@@ -164,7 +164,6 @@ nav {
 .sec-1-container .text-center p {
     font-size: 10.5px;
     color: #627382;
-    /* padding-top: 10px; */
     padding: 10px 0 28px;
 }
 
@@ -176,7 +175,7 @@ nav {
 }
 
 .sec-1-container .sec-1-content .sec-1-card {
-    max-width: 265px;
+    max-width: 260px;
     height: 240px;
     padding: 40px 15px 10px;
     border-radius: 8px;
@@ -194,9 +193,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 10px auto;
-    /* margin: 0 auto ; */
-    
+    margin: 10px auto;    
 }
 
 .sec-1-content 
@@ -217,8 +214,71 @@ h4 {
 p {
     font-size: 13px;
     color: #627382;
-    padding: 10px 0 0;
+    padding: 15px 0 0;
 }
+
+
+
+/* Section-2 */
+#sec-2 {
+    background-color: #FFF;
+    margin-top: 80px;
+}
+
+.sec-2-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sec-2-container .sec-2-img img {
+    max-width: 500px;
+    border-radius: 12px;
+}
+
+.sec-2-container .sec-2-content {
+    width: 550px;
+}
+
+.sec-2-container .sec-2-content h5 {
+    font-size: 16px ;
+    font-weight: 500;
+    color: #469165;
+    text-transform: uppercase;
+}
+
+.sec-2-container .sec-2-content h2 {
+    font-size: 40px ;
+    color: #001931;
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+
+.sec-2-container .sec-2-content p {
+    font-size: 14px ;
+    color: #627382;
+    line-height: 20px;
+    margin: 20px 0;
+}
+
+.sec-2-container 
+.sec-2-content 
+.sec-2-point-text div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px ;
+    color: #001931;
+    line-height: 20px;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+
+
+
+
+
 
 
 
