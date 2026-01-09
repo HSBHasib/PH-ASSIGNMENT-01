@@ -88,12 +88,13 @@ body {
 .hero-container .hero-content-dot {
     display: flex;
     justify-content: center;
-    padding: 8px 12px;
+    align-items: center;
+    padding: 8.5px 12px;
     margin: 0 auto 12px;
-    background-color: #fffffff3;
+    background-color: #fffffffa;
     color: black;
-    max-width: 250px;
-    gap: 10px;
+    max-width: 240px;
+    gap: 8px;
     border-radius: 1000px;
 }
 
